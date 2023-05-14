@@ -26,7 +26,7 @@
   background-size: 500% 500%;
   animation: colors 10s ease infinite;
 }
-
+/*fundo animado*/
 @keyframes colors {
   0% {
     background-position: 0% 50%;
@@ -88,7 +88,7 @@
 }
 
 
-
+/*Responsivo*/
 @media (max-width: 470px){
   .relogio {
     display: flex;
