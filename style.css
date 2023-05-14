@@ -70,3 +70,22 @@
 .relogio span.tempo {
   font-size: 20px;
 }
+
+@media (max-width: 470px){
+  .relogio {
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+    width: 220px;
+    gap: 5px;
+  }
+
+  .relogio div {
+    height: fit-content;
+  }
+
+  .one ,.three {
+     margin: 50px 0px 50px 0;
+  }
+}
